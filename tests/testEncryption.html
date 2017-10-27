@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script src="../static/js/jquery-2.1.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Test Encryption</title>
+</head>
+<body>
+    <input id="cypherText" name="cypherText" placeholder="Enter secret password">
+    <textarea id="inputText" placeholder="Enter text to encrypt" rows="5" cols="45"></textarea>
+    <br/>
+    <input type="button" id="encypt_button" value="Run Encryption" name="encrypt">
+    <br/>
+    <textarea id="outputText" rows="5" cols="45"></textarea>
+
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/core-min.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-utf16-min.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js"></script>
+    <script src="../static/js/CryptoJS_AES_SHA256.js"></script>
+    <script src="testEncryption.js"></script>
+</body>
+</html>
